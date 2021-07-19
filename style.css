@@ -1,6 +1,6 @@
 header{
     display: flex;
-    background-color: #FFD700;
+    background-color: purple;
     width: auto;
 }
 
@@ -9,7 +9,7 @@ header{
     position: relative;
     width: 100%;
     height: 50px;
-    top: -50px;
+    top: 0px;
     right: 0px;
     left: 40px;
     margin: 0px auto;
@@ -22,7 +22,7 @@ header{
 
 .menu a{
     margin: 20px;
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 18px;
 }
@@ -35,7 +35,7 @@ ul{
 }
    
 body{
-    background-image: url(degrade2.jpg);
+    background-image: url(backgound.gif);
 }
 .kat {
     
@@ -67,7 +67,7 @@ body{
     margin-top: 18%;
     margin-left: 3%;
     font-family: cursive;
-    color: black;
+    color: white;
     font-size: 23px;
     
 }
@@ -83,9 +83,9 @@ body{
     display: flex;
     align-items: center;
     font-size: 50px;
-    color: purple;
+    color: white;
     text-align: center;
-    background-color: #FFD700;
+    background-color: purple;
     border: 10px solid #FFD700;
     border-radius: 50%;
     padding: 5px 16px 5px 16px;
@@ -96,9 +96,9 @@ body{
     display: flex;
     align-items: center;
     font-size: 50px;
-    color: purple;
+    color: white;
     text-align: center;
-    background-color: #FFD700;
+    background-color: purple;
     border: 10px solid #FFD700;
     border-radius: 50%;
     padding: 5px 16px 5px 16px;
@@ -109,9 +109,9 @@ body{
     display: flex;
     align-items: center;
     font-size: 50px;
-    color: purple;
+    color: white;
     text-align: center;
-    background-color: #FFD700;
+    background-color: purple;
     border: 10px solid #FFD700;
     border-radius: 50%;
     padding: 5px 16px 5px 16px;
@@ -140,6 +140,7 @@ body{
     font-size: 30px;
     text-align: center;
     font-family: cursive;
+    color: white;
    
 }
 .name2{
@@ -147,19 +148,21 @@ body{
     text-align: center;
     margin-top: -5%;
     font-family: cursive;
+    color: white;
 }
 .form{
     font-weight: bold;
     color: purple;
-    margin-left: 5%;
+    margin-left: 10%;
     padding:10px 10px;
-    width:450px;
+    width:400px;
     height: 200px;
-    background:#FFD700;
+    background: white;
     border-top: 8px double purple;
     border-left:8px double purple;
     border-right:8px double purple;
     border-bottom: 8px double purple;
+    border-radius: 25px;
     font-size: 25px;
     margin-top: 5%;
 }
@@ -176,6 +179,15 @@ body{
     margin-top: 10%;
 }
 .espaco{
-    width: 350px;
+  
+    width: 355px;
     height: 25px;
+}
+
+input{
+    background-color: #FFD700;
+    color: purple;
+    font-weight: bold;
+    font-size: 15px;
+
 }
